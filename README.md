@@ -32,9 +32,11 @@ With the new Azure CLI login experience, you can select the subscription you wan
 If you encounter any problem, please open an issue at https://aka.ms/azclibug
 
 [Warning] The login output has been updated. Please be aware that it no longer displays the full list of available subscriptions by default.
+
 ==========================================================================
 
 PS C:\WINDOWS\system32> az vm list-usage --location eastus --output table
+
 Name                                      CurrentValue    Limit
 ----------------------------------------  --------------  -------
 Availability Sets                         0               2500
@@ -50,7 +52,9 @@ Standard A8-A11 Family vCPUs              0               4
 
 Azure CLI commands: 
     PS C:\WINDOWS\system32> az vm list-sizes --location southindia --output table
+
 This command has been deprecated and will be removed in a future release. Use 'az vm list-skus' instead.
+
 MaxDataDiskCount    MemoryInMB    Name                    NumberOfCores    OsDiskSizeInMB    ResourceDiskSizeInMB
 ------------------  ------------  ----------------------  ---------------  ----------------  ----------------------
 4                   8192          Standard_D2a_v4         2                1047552           51200
